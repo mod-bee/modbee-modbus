@@ -1,0 +1,19 @@
+# Build
+build/
+build-*/
+cmake-build-*/
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+
+# Test scratch
+test/serialbus/run-*/
+*.log
+
+# Editors
+.vscode/
+.idea/
+*.swp
+.DS_Store
